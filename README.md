@@ -10,4 +10,4 @@ A Get request to ```localhost:3000/api/v1/pages/``` will provide an index of all
 
 ### Rules
 
-URL link must start with ```http://``` or ```https://```
+URL link must start with ```http://``` or ```https://```.
