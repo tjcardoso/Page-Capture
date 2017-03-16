@@ -1,24 +1,13 @@
-# README
+# Page Capture
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails API project for saving and storing all the content from the H1, H2 and H3 header tags on a given URL.
 
-Things you may want to cover:
+### Functionality
 
-* Ruby version
+A Post request to ```localhost:3000/api/v1/pages/``` with a JSON key => value pair in the body such as  ```{"url" : "https://en.wikipedia.org/wiki/Canada"}``` will initiate the scrape and save.
 
-* System dependencies
+A Get request to ```localhost:3000/api/v1/pages/``` will provide an index of all saved data.
 
-* Configuration
+### Rules
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+URL link must start with ```http://``` or ```https://```
