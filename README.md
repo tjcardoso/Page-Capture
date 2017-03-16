@@ -11,3 +11,7 @@ A Get request to ```localhost:3000/api/v1/pages/``` will provide an index of all
 ### Rules
 
 URL link must start with ```http://``` or ```https://```.
+
+### Testing
+
+Rspec is used on this project for testing. Once you have cloned this repo, use console to navigate to the main ```page_capture``` folder and from there you can run command `rspec`.
